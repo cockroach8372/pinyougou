@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../angular/angular.min.js"></script>
+    <script>
+        var app=angular.module("myApp",[]);
+        app.controller("myController",function ($scope) {
+            $scope.list=[{"name":"zhangsan","age":13},{"name":"lisi","age":14},{"name":"wangwu","age":15}]
+        })
+    </script>
+</head>
+<body ng-app="myApp" ng-controller="myController">
+<table>
+    <tr ng-repeat="x in list">
+
+        <td>{list[0].name}}</td>    <!--获取name=zhangsan的数据-->
+        <td>{x.name}}</td>
+        <td>{{x.age}}</td>
+    </tr>
+</table>
+</body>
+</html>
