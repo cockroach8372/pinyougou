@@ -5,7 +5,6 @@ import java.util.List;
 
 import com.alibaba.fastjson.JSON;
 import com.pinyougou.group.Goods;
-import com.pinyougou.page.service.ItemPageService;
 import com.pinyougou.pojo.TbItem;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +37,14 @@ public class GoodsController {
 
     @Reference
     private GoodsService goodsService;
-
+    @Autowired
+    private Destination queueSolrDestination;
+    @Autowired
+    private JmsTemplate jmsTemplate;
+    @Autowired
+    private Destination topicPageDestination;
+    @Autowired
+    private  Destination topicPageDeleteDestination;
     /**
      * 返回全部列表
      *
@@ -143,6 +149,13 @@ public class GoodsController {
                 }
             });
 
+            jmsTemplate.send(topicPageDeleteDestination, new MessageCreator() {
+                @Override
+                public Message createMessage(Session session) throws JMSException {
+                    return session.createObjectMessage(ids);
+                }
+            });
+
             return new Result(true, "删除成功");
         } catch (Exception e) {
             e.printStackTrace();
@@ -153,7 +166,7 @@ public class GoodsController {
     /**
      * 查询+分页
      *
-     * @param brand
+     * @param
      * @param page
      * @param rows
      * @return
@@ -165,11 +178,9 @@ public class GoodsController {
         return goodsService.findPage(goods, page, rows);
     }
 
-    @Autowired
-    private Destination queueSolrDestination;
 
-    @Autowired
-    private JmsTemplate jmsTemplate;
+
+
     //@Reference(timeout = 1000000)
     //private ItemSearchService itemSearchService;
     @RequestMapping("/updateStatus")
@@ -190,8 +201,15 @@ public class GoodsController {
 
 
                 }
-                for (Long goodsId : ids) {
-                    itemPageService.genItemHtml(goodsId);
+                for (final Long goodsId : ids) {
+                  //  itemPageService.genItemHtml(goodsId);
+                      jmsTemplate.send(topicPageDestination, new MessageCreator() {
+                          @Override
+                          public Message createMessage(Session session) throws JMSException {
+                              return session.createTextMessage(goodsId+"");
+                          }
+                      });
+
                 }
             }
             return new Result(true, "成功");
@@ -201,8 +219,8 @@ public class GoodsController {
         }
     }
 
-    @Reference(timeout = 40000)
-    private ItemPageService itemPageService;
+ //   @Reference(timeout = 40000)
+  //  private ItemPageService itemPageService;
 //	@RequestMapping("/genhtml")
 //	public void genHtml(Long goodsId){
 //        itemPageService.genItemHtml(goodsId);
