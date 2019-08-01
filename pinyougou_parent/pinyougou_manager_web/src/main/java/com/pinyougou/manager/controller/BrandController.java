@@ -17,7 +17,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/brand")
-public class BrandController {
+public class BrandController  {
     @Reference
     private BrandService brandService;
      @RequestMapping("/findAll.do")
