@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc61788b-f7ed-420e-943d-4a1e99ed6c75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JmsDemo/src/main/java/cn/itcast/demo/QueueProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataRedisDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringdatasolrDemp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringdatasolrDemp/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringdatasolrDemp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringdatasolrDemp/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringdatasolrDemp/SpringdatasolrDemp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringdatasolrDemp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringdatasolrDemp/src/main/java/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/dubboxdemo_web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/dubboxdemo_web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/dubboxdemo_web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/dubboxdemo_web-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/dubboxdemo_web-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/dubboxdemo_web-1.0-SNAPSHOT/WEB-INF/lib/zkclient-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/dubboxdemo_web-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/dubboxdemo_web-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/dubboxdemo_web-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboxdemo/dubboxdemo_web/target/tomcat/logs/access_log.2019-06-27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fastDfs/target/classes/cn/itcast/test/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fastDfs/target/classes/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itacst_ssm_domain/src/main/java/com/itheima/ssm/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itacst_ssm_domain/target/classes/com/itheima/ssm/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itacst_ssm_domain/target/classes/com/itheima/ssm/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_dao/src/main/java/com/itheima/ssm/dao/IProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_service/src/main/java/com/itheima/ssm/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/src/main/java/com/itheima/ssm/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/itacst_ssm_domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/itcast_ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/itcast_ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/itcast_ssm_utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/jsr250-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/ojdbc14-10.2.0.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-ssm/itcast_ssm_web/target/itcast_ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast_ssm/itcast_ssm_domain/src/main/java/com/itheima/ssm/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast_ssm/itcast_ssm_utils/src/test/java/com/itheima/HttpClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast_ssm/itcast_ssm_web/src/main/java/com/itheima/ssm/controller/logAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast_ssm/itcast_ssm_web/src/main/webapp/403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast_ssm/itcast_ssm_web/src/main/webapp/pages/role-permission-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast_ssm/itcast_ssm_web/src/main/webapp/pages/user-role-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/classes/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/classes/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/failer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/springSecurityTest-1.0-SNAPSHOT/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/tomcat/logs/access_log.2019-06-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurityTest/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_dao/target/classes/com/itheima/domain/Items.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_service/target/classes/com/itheima/service/ItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_service/target/classes/com/itheima/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_service/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/classes/com/itheima/controller/ItemsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/controller/ItemsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.6.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/maven_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/maven_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/pages/itemDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/maven_web-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/tomcat/logs/access_log.2019-06-17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/tomcat/work/Tomcat/localhost/maven_web/org/apache/jsp/WEB_002dINF/pages/itemDetail_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/tomcat/work/Tomcat/localhost/maven_web/org/apache/jsp/WEB_002dINF/pages/itemDetail_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/tomcat/work/Tomcat/localhost/maven_web/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/maven_web/target/tomcat/work/Tomcat/localhost/maven_web/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/aspectjweaver-1.6.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/log4j-1.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/pagehelper-5.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-orm-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-security-acl-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-security-config-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-security-core-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-security-taglibs-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-security-web-5.0.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven_parent/out/artifacts/ssm_maven_parent_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinyougou_parent/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pinyougou_parent/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinyougou_parent/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pinyougou_parent/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinyougou_parent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pinyougou_parent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_manager_web/src/main/java/com/pinyougou/manager/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_manager_web/src/main/java/com/pinyougou/manager/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_page_service/src/main/webapp/WEB-INF/ftl/item.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_page_service/src/main/webapp/WEB-INF/ftl/item.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_page_web/src/main/webapp/149187842867960.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_page_web/src/main/webapp/149187842867960.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_page_web/src/main/webapp/js/controller/itemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_page_web/src/main/webapp/js/controller/itemController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_portal_web/src/main/webapp/js/service/contentService.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pinyougou_parent/pinyougou_portal_web/src/main/webapp/js/service/contentService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinyougou_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pinyougou_parent/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/redis-config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-redis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/redis-config.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/demo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\develop\Maven\apache-maven-3.6.0\maven_repository_2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\develop\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="32" />
+    <option name="y" value="61" />
+    <option name="width" value="1170" />
+    <option name="height" value="608" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringDataRedisDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDataRedisDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDataRedisDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDataRedisDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDataRedisDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDataRedisDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDataRedisDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDataRedisDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDataRedisDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDataRedisDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDataRedisDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDataRedisDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDataRedisDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDataRedisDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDataRedisDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDataRedisDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564412168938" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develop\jdk8\project\SpringDataRedisDemo\src\main\resources\properties" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.demo.dele3">
+    <configuration name="demo.dele3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataRedisDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="demo" />
+      <option name="METHOD_NAME" value="dele3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo.getVaule1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataRedisDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="demo" />
+      <option name="METHOD_NAME" value="getVaule1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo.getVaule2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataRedisDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="demo" />
+      <option name="METHOD_NAME" value="getVaule2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo.setVaule1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataRedisDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="demo" />
+      <option name="METHOD_NAME" value="setVaule1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo.setVaule2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataRedisDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="demo" />
+      <option name="METHOD_NAME" value="setVaule2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.demo.dele3" />
+        <item itemvalue="JUnit.demo.getVaule2" />
+        <item itemvalue="JUnit.demo.setVaule2" />
+        <item itemvalue="JUnit.demo.getVaule1" />
+        <item itemvalue="JUnit.demo.setVaule1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc61788b-f7ed-420e-943d-4a1e99ed6c75" name="Default Changelist" comment="" />
+      <created>1562682821880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562682821880</updated>
+      <workItem from="1562682826886" duration="3263000" />
+      <workItem from="1562724056071" duration="2799000" />
+      <workItem from="1562753215633" duration="862000" />
+      <workItem from="1562756980165" duration="2231000" />
+      <workItem from="1563675278431" duration="1324000" />
+      <workItem from="1564412050469" duration="240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="demo_getVaule - 2019.07.10 at 19h 10m 05s.xml">
+      <configuration name="demo.getVaule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo_getValue3 - 2019.07.10 at 19h 13m 49s.xml">
+      <configuration name="demo.getValue3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo_setVaule3 - 2019.07.10 at 19h 13m 57s.xml">
+      <configuration name="demo.setVaule3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo_getValue3 - 2019.07.10 at 19h 14m 02s.xml">
+      <configuration name="demo.getValue3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo_getValue3 - 2019.07.10 at 19h 15m 54s.xml">
+      <configuration name="demo.getValue3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo_setVaule1 - 2019.07.21 at 10h 43m 15s.xml">
+      <configuration name="demo.setVaule1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo_getVaule1 - 2019.07.21 at 10h 43m 24s.xml">
+      <configuration name="demo.getVaule1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo_setVaule2 - 2019.07.21 at 10h 44m 39s.xml">
+      <configuration name="demo.setVaule2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo_getVaule2 - 2019.07.21 at 10h 45m 19s.xml">
+      <configuration name="demo.getVaule2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo_dele3 - 2019.07.29 at 22h 55m 07s.xml">
+      <configuration name="demo.dele3" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10719000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46153846" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32569557" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/redis-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1952428" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
